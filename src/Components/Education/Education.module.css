@@ -1,0 +1,46 @@
+
+.invisible {
+    position: absolute;
+    visibility: hidden;
+    top: 50%;
+}
+
+
+.photo {
+    height: calc(100vh - 100px);
+}
+
+.block {
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+
+.block2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+   .photo {
+    max-width: 100%;
+    height: auto;
+   } 
+
+   .block {
+    flex-direction: column;
+    align-items: flex-start;
+   }
+
+   .education {
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+   }
+}
