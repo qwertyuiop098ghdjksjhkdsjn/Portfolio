@@ -7,7 +7,7 @@ const Projects = React.forwardRef((props, ref) => {
     return (
         <div id="projects" className={styles.block}>
             <div ref={ref} className={styles.invisible}></div>
-            <Headline big={true} text={"PROJECTS ____ PROJECTS ____ PROJECTS"}/>
+            <Headline big={true} text={"PROJECTS _ PROJECTS _ PROJECTS"}/>
             <h1 className={styles.projects}>PROJECTS</h1>
             <div className={styles.allProjects}>
                {data.map(el => <div className={styles.one}>

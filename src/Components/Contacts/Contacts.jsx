@@ -7,7 +7,7 @@ const Contact = React.forwardRef((props, ref) => {
     return(
         <div id="contacts" className={styles.contact}>
             <div ref={ref} className={styles.invisible}></div>
-            <Headline text={"Contacts"}/>
+            <Headline text={"CONTACTS"}/>
             <h1 className={styles.contsctsHeadline}>CONTACTS</h1>
             <div className={styles.contacts}>
                 <p>можно связаться!</p>

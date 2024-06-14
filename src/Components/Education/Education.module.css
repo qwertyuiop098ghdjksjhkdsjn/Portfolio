@@ -12,7 +12,6 @@
 
 .block {
     display: flex;
-    align-items: end;
     position: relative;
 }
 
@@ -27,10 +26,7 @@
 }
 
 @media screen and (max-width: 900px) {
-   .photo {
-    max-width: 100%;
-    height: auto;
-   } 
+   
 
    .block {
     flex-direction: column;
@@ -43,4 +39,12 @@
     padding-left: 20px;
     font-size: 25px;
    }
+}
+
+@media screen and (max-width: 1500px) {
+    .photo {
+    max-width: 100%;
+    height: auto;
+    max-height: calc(100vh - 100px);
+   } 
 }
